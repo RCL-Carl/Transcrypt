@@ -49,6 +49,7 @@ if '__esv6__' in __symbols__:
 __pragma__ ('endif')
 
 import module_math
+import module_re
 import modules
 import nonlocals
 import operator_overloading
@@ -116,5 +117,6 @@ autoTester.run (set_comprehensions, 'set_comprehensions')
 autoTester.run (simple_and_augmented_assignment, 'simple_and_augmented_assignment')
 autoTester.run (truthyness, 'truthyness')
 autoTester.run (tuple_assignment, 'tuple_assignemt')
+autoTester.run (module_re, 'module_re')
 
 autoTester.done ()
